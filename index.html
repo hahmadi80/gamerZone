@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/grids.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b5a344e078.js" crossorigin="anonymous"></script>
+    <script src="Js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('#nav span').click(function () {
+                $('#nav ul').slideToggle();
+            })
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-container">
+                <!-- Menu -->
+                <nav id="nav" class="right">
+                    <span><i class="fas fa-bars"></i></span>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> خانه</a></li>
+                        <li><a href="store.html"><i class="fas fa-home"></i> فروشگاه</a></li>
+                        <li><a href="game.html"><i class="fas fa-gamepad"></i> بازی ها</a></li>
+                        <li><a href="blog.html"><i class="fas fa-blog"></i> بلاگ</a></li>
+                        <li><a href="fouroms.html"><i class="fas fa-newspaper"></i> انجمن ها</a></li>
+                        <li><a href="contact.html"><i class="fas fa-phone-volume"></i> ارتباط با ما</a></li>
+                    </ul>
+                </nav>
+                <!-- Logo -->
+                <div id="logo" class="left">
+                    <a href="cart.html" class="special-span">سبد خرید : <span class="cart">0</span></a>
+                    <h2 id="logoText">گیمر<span>زون</span></h2>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero-section" class="hero-section">
+        <div class="col-xs-12">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="text-hero">
+                        <h2>بهترین <span>بازی ها </span>را در اینجا تجربه کنید</h2>
+                        <p>
+                            صرفا به مشتری یا صاحب کار خود نشان دهند که صفحه طراحی یا صفحه بندی شده بعد از اینکه متن در آن قرار گیرد چگون<br><br> از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                        </p>
+                        <a href="#" class="button">بیشتر بخوانید</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="feature-section">
+        <div class="container">
+            <div class="row">
+                <!-- Feature Items -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feature-item">
+                        <span class="cta new">جدید</span>
+                        <div class="text-feature">
+                            <h4>آپدیت سیزن 5 رینبو سیکس</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="fi-comment">3 نظر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feature-item">
+                        <span class="cta strategy">استراتژی</span>
+                        <div class="text-feature">
+                            <h4>استراتژی های World of Warcraft</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="fi-comment">21 نظر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feature-item">
+                        <span class="cta new">جدید</span>
+                        <div class="text-feature">
+                            <h4>امکانات اضافه شده آپدیت 2020 پابجی</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="fi-comment">12 نظر</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="feature-item">
+                        <span class="cta racing">مسابقه</span>
+                        <div class="text-feature">
+                            <h4>بخش آنلاین مسایقه NFS</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="fi-comment">3 نظر</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Games Section -->
+    <section id="resent-game-section">
+        <div class="container">
+            <!-- Title Section -->
+            <div class="section-title">
+                <div class="cta new">جدید</div>
+                <h2>بازی های اخیر</h2>
+            </div>
+            <!-- Recent Game Items -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="recent-game-item">
+                        <!-- Resent Game BG -->
+                        <div class="rgi-bg">
+                            <div class="cta new">جدید</div>
+                        </div>
+                    <!-- Recent Game content -->
+                    <div class="rgi-content">
+                        <h3>COD Warzone رایگان!</h3>
+                        <p>
+                            استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                        </p>
+                        <a href="#" class="comment">3 نظر</a>
+                        <div class="rgi-extra">
+                            <div class="star">
+                                <img src="image/star.png">
+                            </div>
+
+                            <div class="heart">
+                                <img src="image/heart.png">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="recent-game-item">
+                        <!-- Resent Game BG -->
+                        <div class="rgi-bg">
+                            <div class="cta racing">مسابقه</div>
+                        </div>
+                        <!-- Recent Game content -->
+                        <div class="rgi-content">
+                            <h3>بخش رویال Froza horizon 4</h3>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="comment">3 نظر</a>
+                            <div class="rgi-extra">
+                                <div class="star">
+                                    <img src="image/star.png">
+                                </div>
+
+                                <div class="heart">
+                                    <img src="image/heart.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <div class="recent-game-item">
+                        <!-- Resent Game BG -->
+                        <div class="rgi-bg">
+                            <div class="cta adventure">ماجراجویی</div>
+                        </div>
+                        <!-- Recent Game content -->
+                        <div class="rgi-content">
+                            <h3>بخش جدید داستانی Tomb raider</h3>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند.
+                            </p>
+                            <a href="#" class="comment">3 نظر</a>
+                            <div class="rgi-extra">
+                                <div class="star">
+                                    <img src="image/star.png">
+                                </div>
+
+                                <div class="heart">
+                                    <img src="image/heart.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tournaments Section -->
+    <section id="tournament-section">
+
+            <!-- Title tour -->
+            <div class="title-tournament">
+               <h4 class="cta">مسابقات</h4>
+            </div>
+            <!-- Item Tour -->
+            <div class="row">
+                <div class="container">
+                <div class="col-xs-12 col-md-6">
+                    <div class="tournament-item">
+                        <div class="ti-notic">مسابقات حرفه ای</div>
+                        <div class="ti-content">
+                            <div class="ti-bg"></div>
+                            <div class="ti-text">
+                                <h4>World of Warcraft</h4>
+                                <ul>
+                                    <li><span>شروع مسابقه: </span>20 اردیبهشت 1399</li>
+                                    <li><span>پایان مسابقه:</span>20 خرداد 1399</li>
+                                    <li><span>تعداد تیم:</span>10 تیم</li>
+                                    <li><span>برگزار کننده:</span>حمید احمدی</li>
+                                </ul>
+                                <p><span>جوایز:</span>اول $2000 , دوم $1000 , سوم $500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item Tour -->
+                <div class="col-xs-12 col-md-6">
+                    <div class="tournament-item">
+                        <div class="ti-notic">مسابقات حرفه ای</div>
+                        <div class="ti-content">
+                            <div class="ti-bg"></div>
+                            <div class="ti-text">
+                                <h4>Rainbow 6</h4>
+                                <ul>
+                                    <li><span>شروع مسابقه:</span>20 اردیبهشت 1399</li>
+                                    <li><span>پایان مسابقه:</span>30 خرداد 1399</li>
+                                    <li><span>تعداد تیم:</span>20 تیم</li>
+                                    <li><span>برگزار کننده:</span>حمید احمدی</li>
+                                </ul>
+                                <p><span>جوایز:</span>اول $3000 , دوم $1000 , سوم $500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Recent Reviews -->
+    <section id="recent-review-section">
+        <div class="container">
+            <!-- Title -->
+            <div class="section-title">
+                <div class="cta new">جدید</div>
+                <h2>نقد و بررسی های اخیر</h2>
+            </div>
+            <!-- Items -->
+            <div class="row">
+
+                <!-- Item -->
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="review-item">
+                        <!-- BG Item -->
+                        <div class="bg-review">
+                            <div class="score yellow">9.3</div>
+                        </div>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <h4>Assasins Creed</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="review-item">
+                        <!-- BG Item -->
+                        <div class="bg-review">
+                            <div class="score Purple">8</div>
+                        </div>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <h4>Overwatch</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Item -->
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="review-item">
+                        <!-- BG Item -->
+                        <div class="bg-review">
+                            <div class="score green">9.5</div>
+                        </div>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <h4>Gta V</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Item -->
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <div class="review-item">
+                        <!-- BG Item -->
+                        <div class="bg-review">
+                            <div class="score pink">8.9</div>
+                        </div>
+                        <!-- Review Text -->
+                        <div class="review-text">
+                            <h4>Pes 2020</h4>
+                            <p>
+                                استفاده از محتویات ساختگی، صفحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Top Footer -->
+    <section id="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-logo">
+                        <h2 id="logoText">گیمر<span>زون</span></h2>
+                        <p>بهترین شاپ و رسانه گیمینگ ایران :)</p>
+                        <img src="image/footer-top-bg.png" class="prence">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <h4>پست های اخیر</h4>
+                        <div class="latest-posts">
+                            <div class="lp-item">
+                                <div class="lp-bg"></div>
+                                <div class="lp-content">
+                                    <div class="lp-date">10 فروردین 1399</div>
+                                    <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                    <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                </div>
+                            </div>
+
+                            <div class="lp-item">
+                                <div class="lp-bg"></div>
+                                <div class="lp-content">
+                                    <div class="lp-date">10 فروردین 1399</div>
+                                    <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                    <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                </div>
+                            </div>
+
+                            <div class="lp-item">
+                                <div class="lp-bg"></div>
+                                <div class="lp-content">
+                                    <div class="lp-date">10 فروردین 1399</div>
+                                    <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                    <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="footer-widget">
+                        <h4>بهترین نظرات</h4>
+                        <div class="top-comments">
+                            <div class="tc-item">
+                                <div class="tc-bg"></div>
+                                <div class="tc-content">
+                                    <p>واقعا این آپدیت رینبو عالی بود</p>
+                                    <div class="tc-date">4 تیر 1398</div>
+                                </div>
+                            </div>
+
+                            <div class="tc-item">
+                                <div class="tc-bg"></div>
+                                <div class="tc-content">
+                                    <p>رو دستتون نیست همینطوری ادامه بدین</p>
+                                    <div class="tc-date">4 تیر 1398</div>
+                                </div>
+
+                            </div>
+
+                            <div class="tc-item">
+                                <div class="tc-bg"></div>
+                                <div class="tc-content">
+                                    <p>لطفا آپدیت هارو اینجا برای دانلود بزارید</p>
+                                    <div class="tc-date">30 تیر 1398</div>
+                                </div>
+
+                            </div>
+
+                            <div class="tc-item">
+                                <div class="tc-bg"></div>
+                                <div class="tc-content">
+                                    <p>موفق باشید</p>
+                                    <div class="tc-date">4 تیر 1398</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <!-- Menu -->
+            <ul class="footer-menu">
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="game.html">بازی ها</a></li>
+                <li><a href="blog.html">بلاگ</a></li>
+                <li><a href="fouroms.html">انجمن ها</a></li>
+                <li><a href="contact.html">ارتباط با ما</a></li>
+            </ul>
+            <P class="copyright">
+                کپی رایت ©2020 تمامی حقوق محفوظ است و به <b>حمید</b>متعلق است.
+            </P>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

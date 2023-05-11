@@ -1,0 +1,122 @@
+/* general */
+#community-section .container {
+    width: 90%;
+}
+
+#game-info-section {
+    background-image: url("../image/fouroms-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game-info-section h2 {
+    color: #ffb320;
+}
+
+/* Community Posts */
+#community-section {
+    padding:97px 0;
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+#community-section h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#community-section form {
+    font-family: parasto;
+    margin-bottom: 80px;
+}
+
+#community-section form select {
+    font-family: inherit;
+    width: 201px;
+    height: 42px;
+    font-size: 14px;
+    padding: 0 18px;
+    color: #1f2225;
+    font-weight: 500;
+    outline: none;
+}
+
+.community-filter label {
+    font-size: 18px;
+    color: #1f2225;
+    font-weight: 500;
+    padding-right: 10px
+}
+
+/* Community Posts */
+.community-posts li {
+    padding:30px 25px 30px;
+    margin-bottom: 21px;
+    overflow: hidden;
+    border: 1px solid #878787;
+    background: #1f2225;
+}
+
+.community-bg {
+    width: 63px;
+    height:63px;
+}
+
+.community-text {
+    padding-top:30px;
+}
+
+.community-bg img {
+    width: 63px;
+    height:63px;
+    border-radius: 50%;
+}
+
+.community-text h5 {
+    font-size: 16px;
+    color: #ff205f;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: tanha;
+}
+
+.community-text h5 span {
+    color: #7a7a7a;
+    padding-right: 18px;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #ffb320;
+    margin-bottom: 18px;
+    font-family: parasto;
+}
+
+.community-text p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-size:14px;
+}
+
+/* Media Q  */
+@media screen and (min-width:720px){
+    .community-bg {
+        float:right;
+        padding-top:30px;
+    }
+
+    .community-text {
+        padding-right:100px;
+    }
+}
+
+@media screen and (min-width:990px){
+    #community-section {
+        background-color: rgba(0, 0, 0, 0.28) !important;
+        background-image: url("../image/community-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+
+    }
+
+}

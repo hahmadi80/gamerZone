@@ -1,0 +1,878 @@
+/* Font */
+@font-face {
+    font-family: "english-font";
+    src: url("../font/TitilliumWeb-Black.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: tanha;
+    src: url("../font/Tanha.woff")
+    format("woff");
+}
+
+@font-face {
+    font-family: parasto;
+    src: url("../font/Parastoo.woff")
+    format("woff");
+}
+
+/* Container Styles */
+@media screen and (min-width: 576px) {
+    .container {
+        max-width:570px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width:750px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width:980px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width:1270px;
+    }
+}
+
+/* General */
+body a {
+    text-decoration: none;
+    font-family: parasto;
+}
+
+body {
+    list-style: none;
+    direction: rtl;
+    transition:all .3s;
+}
+
+body h1 , body h2 , body h3 , body h4 {
+    font-family: tanha;
+}
+
+body p {
+    font-family: parasto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529
+}
+
+.clear {
+    clear:both;
+}
+
+.container {
+    width:96%;
+    margin:0 auto;
+}
+
+.header-container {
+    width:96%;
+    margin:0 auto;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.cart {
+    color:#ffb320 ;
+}
+
+/* Header */
+
+#logoText  {
+    color: white;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#logoText  span {
+    color: #ffb320;
+}
+
+#logo a {
+    color: white;
+    font-size: 14px;
+}
+
+#header {
+    background-color:#131313;
+    border-bottom: 1px solid #ffb320;
+    padding:23px 0;
+}
+
+#nav {
+    position: static;
+}
+
+#nav span i {
+    color:white;
+    font-size:25px;
+}
+
+#nav ul {
+    position: absolute;
+    top:75.5px;
+    min-width: 300px;
+    width:100%;
+    /* max-width: 540px; */
+    height:auto;
+    background-color:white;
+    display: none;
+}
+
+#nav ul li {
+    border-bottom: 1px solid #ececec;
+}
+
+#nav ul li a {
+    padding:13px 26px;
+    display: block;
+    font-size:16px;
+    color:#131313;
+    transition: .2s;
+}
+
+#nav ul li a:hover {
+    color:#ffb320;
+}
+
+#nav ul li:last-child {
+    border-bottom: none;
+}
+
+/* Hero Section */
+#hero-section {
+    background-image: url("../image/slider-2.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.hero-content {
+    padding: 150px 0;
+}
+
+.text-hero h2 {
+    font-size: 34px;
+    transition: .3s;
+
+}
+
+.text-hero h2 span {
+    color: #ffb320;
+}
+
+.text-hero h2 , .text-hero p {
+    color:white;
+    margin-bottom: 30px;
+}
+
+.text-hero p {
+    font-size:14px;
+}
+
+.text-hero a {
+    font-size:15px;
+    padding:11px 30px;
+    color: #131313;
+    background-color: #ffb320;
+    border-radius: 50px;
+   box-shadow: -5px 6px 1px 0px rgba(0,0,0,0.27);
+}
+
+/* Feature Section */
+#feature-section {
+    padding:97px 0;
+}
+
+.feature-item {
+    margin-bottom: 30px;
+    height: 410px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-feature {
+    padding:0 24px 26px 24px;
+    position: relative;
+    top:180px;
+
+}
+
+.feature-item h4 {
+    color:white;
+    margin-bottom: 18px;
+    font-size:20px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.feature-item p {
+    margin-bottom: 1rem;
+    color:white;
+    font-size: 16px;
+}
+
+.feature-item a {
+    font-size:13px;
+    opacity: .54;
+    color:white;
+    font-weight: bold;
+}
+
+#feature-section .row .col-sm-6:first-child .feature-item{
+    background-image: url("../image/cod-cover-box.jpg");
+}
+
+#feature-section .row .col-sm-6:nth-child(2) .feature-item {
+    background-image: url("../image/ew-cover-box.jpg");
+}
+
+#feature-section .row .col-sm-6:nth-child(3) .feature-item {
+    background-image: url("../image/gta-poster-box.jpg");
+}
+
+#feature-section .row .col-sm-6:nth-child(4) .feature-item {
+    background-image: url("../image/nfs-cover-box.jpg");
+}
+
+.cta {
+    padding:6px 25px;
+    font-size:12px;
+    color:white;
+    font-weight: 500;
+    font-family: parasto;
+    margin-right:28px;
+    box-sizing: border-box;
+
+
+}
+
+.new {
+    background-color:#ff205f;
+}
+
+.strategy {
+    background-color:#4eae60;
+}
+
+.racing {
+    background-color:#694eae;
+}
+
+/* Recent Games Section */
+#resent-game-section {
+    padding: 97px 0;
+    background-color:#eef2f6;
+    border-top:1px solid #d6dee7;
+    border-bottom:1px solid #d6dee7;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.section-title .cta {
+    display: inline-block;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin-top:10px;
+    position: relative;
+    right: 14px;
+}
+
+.rgi-bg {
+    padding:25px 28px;
+    height:204px;
+    position: relative;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(1) .rgi-bg {
+    background-image: url("../image/cod-warzone-dev-.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(2) .rgi-bg {
+    background-image: url("../image/froza-horizon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(3) .rgi-bg {
+    background-image: url("../image/tomb-raider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recent-game-item {
+    margin-bottom: 42px;
+}
+
+.rgi-bg .cta {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left:28px;
+}
+
+.rgi-bg .adventure {
+    background-color:#40abf5;
+}
+
+.rgi-content {
+    padding:34px 24px 22px 24px;
+    background-color:white;
+    border:1px solid #d6dee7;
+    border-top:none;
+    position: relative;
+}
+
+.rgi-content h3 {
+    font-size:20px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rgi-content p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 2;
+    color:#878787;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.rgi-content .comment {
+    color:#737373;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rgi-extra {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:70px;
+}
+
+.star {
+    background-color: #ffb320;
+}
+
+.star img {
+    height:19px;
+    width:19px;
+}
+
+.heart {
+    background-color: #ff205f;
+}
+
+.heart img {
+    height:19px;
+    width:19px;
+}
+
+.star , .heart {
+    float: right;
+    padding:6px 8px 0 8px;
+}
+
+/* Tournament Section */
+#tournament-section {
+    background-image: url("../image/pattern.png");
+    padding:97px 0;
+}
+
+.title-tournament {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-tournament h4 {
+    background-color:#fb6e10;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.tournament-item {
+    background-color:#252525;
+    margin-bottom: 24px;
+}
+
+.ti-notic {
+    display: inline-block;
+    background-color: #ffb320;
+    padding:8px 21px;
+    font-size:12px;
+    color:#131313;
+    font-weight: 700;
+    font-family: parasto;
+}
+
+.ti-content {
+    padding:38px 24px;
+}
+
+.ti-bg {
+    width:100%;
+    height:230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ti-text{
+    padding:20px;
+}
+
+.ti-text h4 {
+    color:#ffb320;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.ti-text ul {
+    margin-bottom: 20px;
+}
+
+.ti-text ul li {
+    color:white;
+    font-size: 12px;
+    margin-bottom: 6px;
+    font-family: parasto;
+}
+
+.ti-text ul li span {
+    color:#9a9a9a;
+    padding-left: 2px;
+}
+
+.ti-text p {
+    color:#878787;
+    font-size: 13px;
+}
+
+.ti-text p span {
+    color:#ffb320;
+    font-weight: bold;
+    padding-left:2px;
+}
+
+
+#tournament-section .row .col-xs-12:nth-child(1) .ti-bg{
+    background-image: url("../image/card-world-of-warcraft-.jpg");
+}
+
+#tournament-section .row .col-xs-12:nth-child(2) .ti-bg{
+    background-image: url("../image/rainbow-six-siege.jpg");
+}
+
+/* Recent Reviews */
+#recent-review-section {
+    padding:97px 0;
+}
+
+.review-item {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#recent-review-section .row .col-md-6:nth-child(1) .bg-review {
+    background-image: url("../image/assassins-creed-odyssey-art.jpg");
+}
+
+#recent-review-section .row .col-md-6:nth-child(2) .bg-review {
+    background-image: url("../image/overwatch.jpg");
+}
+
+#recent-review-section .row .col-md-6:nth-child(3) .bg-review {
+    background-image: url("../image/gta-poster-384x488.jpg");
+}
+
+#recent-review-section .row .col-md-6:nth-child(4) .bg-review {
+    background-image: url("../image/soccer-poster-384x488.jpg");
+}
+
+.bg-review {
+    height:345px;
+    position: relative;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.score {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: -27px;
+    right: 26px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.yellow {
+    background-color: #ffb320;
+}
+
+.Purple {
+    background-color:#694eae;
+}
+
+.green {
+    background-color: #4eae60;
+}
+
+.pink {
+    background-color:#ff20ae;
+}
+
+.review-text h4 {
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.review-text p {
+    font-size:14px;
+    color:#878787;;
+}
+
+/* Top Footer */
+#top-footer {
+    padding:72px 0 0 0;
+    background-image: url("../image/pattern.png");
+}
+
+.footer-logo {
+    margin-bottom: 50px;
+}
+
+.footer-logo img {
+    width:279px;
+    margin-bottom: 37px;
+}
+
+.footer-logo p {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color:white;
+}
+
+.footer-widget {
+    padding:40px 15px 7px 15px;
+    margin-bottom: 48px;
+    background-color:#252525;
+    border: 1px solid #4a4a4a;
+    height:400px;
+}
+
+.footer-widget h4 {
+    margin-bottom: 40px;
+    font-size:24px;
+    color:white;
+}
+
+.footer-logo .prence {
+    display:none;
+}
+
+.lp-item {
+    margin-bottom: 23px;
+    overflow: hidden;
+}
+
+.lp-bg {
+    width:55px;
+    height:55px;
+    background-image: url("../image/me-cover-384x488.jpg");
+    background-size: cover;
+    float:right;
+}
+
+.lp-content {
+    padding-right:67px;
+}
+
+.lp-date {
+    font-size:12px;
+    color:#ffb320;
+    font-family: parasto;
+    margin-bottom: 8px;
+}
+
+.lp-content p {
+    font-size:12px;
+    color:#d3d3d3;
+    margin-bottom: 5px;
+}
+
+.lp-content a {
+    font-size: 12px;
+    color:#d3d3d3;
+    opacity:.45;
+}
+
+.tc-item{
+    margin-bottom: 25px;
+}
+
+.tc-bg {
+    background-image: url("../image/Person-.jpg");
+    background-size:cover;
+    width:63px;
+    height:63px;
+    border-radius: 50%;
+    float:right;
+    margin-left: 15px;
+}
+
+.tc-content p {
+    color:#d3d3d3;
+    font-size:12px;
+    margin-bottom: 5px;
+}
+
+.tc-date {
+    font-size:12px;
+    color:#ffb320;
+    font-family: parasto;
+}
+
+/* Footer */
+#footer {
+    padding:30px 0 20px 0;
+    background-color:#252525;
+    text-align: center;
+}
+
+.footer-menu li {
+    display:inline-block;
+    padding: 0 10px;
+}
+
+.footer-menu li a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #aeaeae;
+}
+
+.copyright {
+    font-size:14px;
+    margin-top:15px;
+    color:#aeaeae;;
+}
+
+
+/* Media Q */
+@media screen and (min-width:992px){
+    #nav span {
+        display: none;
+    }
+
+    #nav ul {
+        background:none;
+       min-width: 620px;
+        display: block !important;
+        top:0;
+        height:50px;
+    }
+
+    #nav ul li {
+        display: inline-block;
+        border:none;
+        padding:10px 0;
+
+    }
+
+    #nav ul li a {
+        color:white;
+    }
+
+    .text-hero h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:990px){
+    #resent-game-section {
+        background-image: url("../image/recent-game-bg.png");
+        background-repeat: no-repeat;
+        background-position:bottom center;
+    }
+
+    #recent-review-section {
+        background-image: url("../image/review-bg.png");
+        background-repeat: no-repeat;
+        background-position:bottom right;
+    }
+
+    .footer-logo .prence {
+        display: block;
+        width:370px;
+        height:340px;
+    }
+
+}
+
+/* !!!!GAME PAGE STYLES!!!! */
+
+.header-container ul {
+    z-index: 100;
+}
+
+    /* Game Info Section */
+#game-info-section {
+    background-image: url("../image/game-bg.jpg");
+    height:499px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pi-item {
+    position: absolute;
+    width: 100%;
+    bottom: 65px;
+    left: 0;
+    z-index: 2;
+}
+
+.pi-item h2 {
+    font-size:42px;
+    color:white;
+    margin-bottom: 25px;
+}
+
+.pi-item p {
+    color:white;
+    font-size:14px;
+    line-height: 2;
+    margin-bottom: 16px;
+}
+
+/* Review Posts */
+#review-posts {
+    padding:97px 0;
+}
+
+.post-review {
+    margin-bottom: 63px;
+    text-align: center;
+}
+
+.post-bg {
+    position: relative;
+    margin-bottom: 30px;
+    height: 345px;
+}
+
+#review-posts .row .col-xs-12:nth-child(1) .post-bg {
+    background-image: url("../image/over-hall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#review-posts .row .col-xs-12:nth-child(2) .post-bg {
+    background-image: url("../image/gta-tt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#review-posts .row .col-xs-12:nth-child(3) .post-bg {
+    background-image: url("../image/avatar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#review-posts .row .col-xs-12:nth-child(4) .post-bg {
+    background-image: url("../image/anthem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#review-posts .row .col-xs-12:nth-child(5) .post-bg {
+    background-image: url("../image/cyber.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#review-posts .row .col-xs-12:nth-child(6) .post-bg {
+    background-image: url("../image/spider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-post h3 {
+    color:#131313;
+    font-size:24px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-bottom: 20px;
+}
+
+.rating i {
+    color:#fbb710;
+    font-size:12px;
+}
+
+.rating i:last-child {
+    color:#e0e3e4;
+}
+
+.text-post p {
+    color: #878787;
+    font-size:14px;
+}
+
+.text-center-bottom {
+    text-align: center;
+
+}
+
+.text-center-bottom button {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family: parasto;
+    padding:10px 30px;
+    border:none;
+    background-color: #ffb320;
+    border-radius: 50px;
+}
+
+
+
+

@@ -1,0 +1,91 @@
+/* General */
+#game-info-section {
+    background-image: url("../image/contact-bg.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
+/* Contact */
+#contact {
+    padding:97px 0;
+}
+
+#contact .item-contact {
+    padding-bottom: 48px;
+}
+
+.title-contact {
+    font-size:24px;
+    margin-bottom: 48px;
+}
+
+.item-contact p {
+    color: #878787;
+    font-size:14px;
+    margin-bottom: 16px;
+}
+
+.contact-info {
+    padding:55px 0 25px;
+}
+
+.contact-info li {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #878787;
+    font-family: parasto;
+}
+
+.contact-info li span {
+    color: #ffb320;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.social-apps a {
+    color: #474747;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+
+
+.form-contact input {
+    height: 41px;
+    border: 1px solid #d6dee7;
+    padding-right: 22px;
+    padding-left: 45px;
+    font-size: 12px;
+    margin-bottom: 24px;
+    width:80%;
+    font-family: parasto;
+    outline: none;
+}
+
+.form-contact textarea {
+    height: 243px;
+    padding-top: 15px;
+    padding-right: 22px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+    margin-bottom: 38px;
+    resize: none;
+    width:70%;
+    border: 1px solid #d6dee7;
+    font-family: parasto;
+    outline: none;
+}
+
+.form-contact button {
+    padding: 10px 30px;
+    width:163px;
+    background-color: #ffb320;
+    border:none;
+    font-family: parasto;
+    color:black;
+    border-radius: 50px;
+    outline: none;
+}

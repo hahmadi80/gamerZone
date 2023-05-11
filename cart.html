@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/grids.css">
+    <link rel="stylesheet" href="style/cart.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b5a344e078.js" crossorigin="anonymous"></script>
+    <script src="Js/jquery.js"></script>
+    <script>
+        $(function () {
+            $('#nav span').click(function () {
+                $('#nav ul').slideToggle();
+            })
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-container">
+                <!-- Menu -->
+                <nav id="nav" class="right">
+                    <span><i class="fas fa-bars"></i></span>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-home"></i> خانه</a></li>
+                        <li><a href="store.html"><i class="fas fa-home"></i> فروشگاه</a></li>
+                        <li><a href="game.html"><i class="fas fa-gamepad"></i> بازی ها</a></li>
+                        <li><a href="blog.html"><i class="fas fa-blog"></i> بلاگ</a></li>
+                        <li><a href="fouroms.html"><i class="fas fa-newspaper"></i> انجمن ها</a></li>
+                        <li><a href="contact.html"><i class="fas fa-phone-volume"></i> ارتباط با ما</a></li>
+                    </ul>
+                </nav>
+                <!-- Logo -->
+                <div id="logo" class="left">
+                    <a href="cart.html" class="special-span">سبد خرید : <span class="cart">0</span></a>
+                    <h2 id="logoText">گیمر<span>زون</span></h2>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero-section" class="hero-section">
+        <div class="col-xs-12">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="text-hero">
+                        <h2>سبد خرید</h2>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+
+
+ <!-- Cart Content -->
+ <section id="cart-content">
+    <div class="container">
+        <div class="row">
+
+            <!-- Products -->
+            <div class="col-xs-12 col-770-8 first-cart cart-bg">
+                <div class="info-cart">
+
+                    <div class="col-xs-12 info-title-cart">
+
+                        <div class="col-xs-4">
+                            <h3>سفارش ها شما</h3>
+                        </div>
+
+                        <div class="col-xs-4">
+                            <h3>قیمت</h3>
+                        </div>
+
+                        <div class="col-xs-2">
+                            <h3>تعداد</h3>
+                        </div>
+
+                        <div class="col-xs-2">
+                            <h3>جمع قیمت</h3>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Price -->
+            <div class="col-xs-12 col-770-4 cart-bg">
+                <div class="price-cart">
+                    <div class="col-xs-12 title-price-cart count-cart">
+                        <span class="right">تعداد سفارش</span>
+                        <span class="left count-product"></span>
+                    </div>
+
+                    <div class="col-xs-12 title-price-cart total-cart">
+                        <span class="right">قابل پرداخت</span>
+                        <span class="left product-price"></span>
+                    </div>
+
+                    <div class="col-xs-12 title-price-cart total-cart">
+                        <a class="clear-list">خالی کردن سبد</a>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <a href="#" class="pay">پرداخت</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+    
+        <!-- Top Footer -->
+        <section id="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-logo">
+                            <h2 id="logoText">گیمر<span>زون</span></h2>
+                            <p>بهترین شاپ و رسانه گیمینگ ایران :)</p>
+                            <img src="image/footer-top-bg.png" class="prence">
+                        </div>
+                    </div>
+    
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <div class="footer-widget">
+                            <h4>پست های اخیر</h4>
+                            <div class="latest-posts">
+                                <div class="lp-item">
+                                    <div class="lp-bg"></div>
+                                    <div class="lp-content">
+                                        <div class="lp-date">10 فروردین 1399</div>
+                                        <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                        <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                    </div>
+                                </div>
+    
+                                <div class="lp-item">
+                                    <div class="lp-bg"></div>
+                                    <div class="lp-content">
+                                        <div class="lp-date">10 فروردین 1399</div>
+                                        <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                        <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                    </div>
+                                </div>
+    
+                                <div class="lp-item">
+                                    <div class="lp-bg"></div>
+                                    <div class="lp-content">
+                                        <div class="lp-date">10 فروردین 1399</div>
+                                        <p>چظور حرفه ای پابجی بازی کنیم؟</p>
+                                        <a href="#" class="lp-admin">نوشته شده حمید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="footer-widget">
+                            <h4>بهترین نظرات</h4>
+                            <div class="top-comments">
+                                <div class="tc-item">
+                                    <div class="tc-bg"></div>
+                                    <div class="tc-content">
+                                        <p>واقعا این آپدیت رینبو عالی بود</p>
+                                        <div class="tc-date">4 تیر 1398</div>
+                                    </div>
+                                </div>
+    
+                                <div class="tc-item">
+                                    <div class="tc-bg"></div>
+                                    <div class="tc-content">
+                                        <p>رو دستتون نیست همینطوری ادامه بدین</p>
+                                        <div class="tc-date">4 تیر 1398</div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="tc-item">
+                                    <div class="tc-bg"></div>
+                                    <div class="tc-content">
+                                        <p>لطفا آپدیت هارو اینجا برای دانلود بزارید</p>
+                                        <div class="tc-date">30 تیر 1398</div>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="tc-item">
+                                    <div class="tc-bg"></div>
+                                    <div class="tc-content">
+                                        <p>موفق باشید</p>
+                                        <div class="tc-date">4 تیر 1398</div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+ 
+    
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <!-- Menu -->
+                <ul class="footer-menu">
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="game.html">بازی ها</a></li>
+                    <li><a href="blog.html">بلاگ</a></li>
+                    <li><a href="fouroms.html">انجمن ها</a></li>
+                    <li><a href="contact.html">ارتباط با ما</a></li>
+                </ul>
+                <P class="copyright">
+                    کپی رایت ©2020 تمامی حقوق محفوظ است و به <b>حمید</b>متعلق است.
+                </P>
+            </div>
+        </footer>
+    
+    
+    </div>
+    
+
+    <script src="js/slider.js"></script>
+    <script src="./js/products.js"></script>
+
+    </body>
+    </html>

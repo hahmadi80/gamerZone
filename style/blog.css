@@ -1,0 +1,156 @@
+/* General */
+#game-info-section {
+    background-image: url("../image/slider-2.jpg");
+}
+
+/* Recent Games */
+#resent-game-section {
+    background-color: white;
+    border-bottom: none;
+    background-image: none;
+    border-top:none
+}
+
+#resent-game-section .row .col-xs-12:nth-child(4) .rgi-bg {
+    background-image: url("../image/Planes-of-Gloria-384x488.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(5) .rgi-bg {
+    background-image: url("../image/me-cover-384x488.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(6) .rgi-bg {
+    background-image: url("../image/game-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(7) .rgi-bg {
+    background-image: url("../image/anthem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resent-game-section .row .col-xs-12:nth-child(8) .rgi-bg {
+    background-image: url("../image/assassins-creed-odyssey-art.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Form */
+.widget-search {
+    max-width: 380px;
+    position: relative;
+}
+
+.widget-search form input {
+    border:1px solid #d6dee7;
+    padding-left:45px;
+    padding-right:22px;
+    height:41px;
+    width:100%;
+    font-size: 12px;
+    font-family: parasto;
+    outline: none;
+}
+
+.widget-search form button {
+    border:none;
+    background-color:transparent;
+    font-size: 14px;
+    position: absolute;
+    top:12px;
+    left:0;
+    padding: 1px 6px 1px 15px;
+    outline: none;
+}
+
+
+
+#latest-posts {
+    padding-top:48px;
+}
+
+.widget-item {
+    margin-bottom: 73px;
+}
+
+#latest-posts .row .col-xs-12:nth-child(4) .feature-item{
+    background-image: url("../image/cod-cover-box.jpg");
+    max-width:390px;
+}
+
+#latest-posts .row .col-xs-12:nth-child(5) .bg-review {
+    background-image: url("../image/gta-poster-384x488.jpg");
+}
+
+.bg-review {
+    margin-bottom: 0;
+}
+
+.review-text {
+    background-color: #f8f9fa;
+    padding:20px 35px;
+}
+
+/* Latest Posts */
+#latest-posts .widget-title {
+    margin-bottom: 40px;
+    font-size:24px;
+}
+
+.tc-content {
+    padding-right:67px;
+}
+
+#latest-posts p {
+    color:#131313;
+}
+
+#latest-posts a {
+    color:#737373;
+}
+
+.tc-item {
+    margin-bottom: 43px;
+}
+
+.widget-item .review-item {
+    max-width: 390px;
+}
+
+
+/* Media Q */
+@media screen and (min-width:990px){
+    #resent-game-section {
+        width:66%;
+        display:inline-block;
+    }
+
+    #latest-posts {
+        width:33%;
+        display: inline-block;
+        position: relative;
+        top:-30px;
+        padding-top:97px;
+    }
+
+    .lp-bg {
+        width: 97px;
+        height:97px;
+    }
+
+    .lp-content {
+        padding-right:107px;
+    }
+}
+
+
+
+
